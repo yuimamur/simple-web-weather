@@ -2,4 +2,4 @@
 
 お天気情報Webアプリ
 
-![image](https://github.com/user-attachments/assets/056de70f-b223-4daf-9da8-e340b492943a)
+![image](https://github.com/user-attachments/assets/5896f600-3b28-43da-b11a-bbc4b1110506)
