@@ -1,0 +1,28 @@
+
+{
+  "aws_access_key_id": "AKIA6KJQR5EGTC",
+  "aws_secret_access_key": "Dbe7btQV8qq6kRxJY7/708aBCK0AFuns",
+  "id": "f4e23cf0-2f78-4077-8ad8-cbb2d563",
+  "name": "Wiz Environment Variables",
+  "values": [
+    {
+      "key": "CLIENT_ID",
+      "value": "gDPy8jPAiz",
+      "enabled": true
+    },
+    {
+      "key": "CLIENT_SECRET",
+      "value": "De7A5C@F8rp#oHCsE6?Gd@8fQ$yMEq4t",
+      "enabled": true
+    },
+    {
+      "key": "access_token",
+      "value": "",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2021-06-25T12:07:37.831Z",
+  "_postman_exported_using": "Postman/8.3.0"
+}
+
