@@ -4,9 +4,9 @@
 function setWeatherIcon(humidity) {
     const icon = document.getElementById('weather-icon');
     if (humidity < 50) {
-        icon.src = 'images/rainy.png'; // 低湿度のアイコン
+        icon.src = 'images/rainy.png'; // 低湿度
     } else {
-        icon.src = 'images/cloudy.png'; // 高湿度のアイコン
+        icon.src = 'images/cloudy.png'; // 高湿度
     }
 }
 document.getElementById("search").addEventListener("click", getWeather);
@@ -15,7 +15,7 @@ require('dotenv').config();
 
 function getWeather() {
     //const MY_WEATHER_APIKEY = process.env.MY_WEATHER_APIKEY;
-    const MY_WEATHER_APIKEY = "f43d5fBEBFAD1aA145Dfd306A2c1FD61105D2"; //test
+    const MY_WEATHER_APIKEY = "f43d5fBEBFAD1aA145Dsadafd306fA2c1FD61105D2"; //test
     const latInput = document.getElementById('lat-input');
     const lonInput = document.getElementById('lon-input');
     const lat = parseFloat(latInput.value);
