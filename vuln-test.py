@@ -25,6 +25,7 @@ app = Flask(__name__)
 # 脆弱: SECRET_KEY をソースに直書き
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 app.config['SECRET_KEY'] = 'secretkey123456789'
 =======
 app.config['SECRET_KEY'] = 'supersecretkey123'
@@ -32,6 +33,9 @@ app.config['SECRET_KEY'] = 'supersecretkey123'
 =======
 app.config['SECRET_KEY'] = 'secretkey12345'
 >>>>>>> b7019ba (random change)
+=======
+app.config['SECRET_KEY'] = 'secretkey123456'
+>>>>>>> ce06711 (change the secret key)
 
 # 脆弱: データベース情報も直書き
 DB_PATH = 'users.db'
