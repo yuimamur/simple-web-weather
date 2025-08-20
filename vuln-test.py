@@ -23,7 +23,7 @@ import os
 app = Flask(__name__)
 
 # 脆弱: SECRET_KEY をソースに直書き
-app.config['SECRET_KEY'] = 'secretkey12345678'
+app.config['SECRET_KEY'] = 'secretkey123456789'
 
 # 脆弱: データベース情報も直書き
 DB_PATH = 'users.db'
