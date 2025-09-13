@@ -15,7 +15,7 @@ require('dotenv').config();
 
 function getWeather() {
     //const MY_WEATHER_APIKEY = process.env.MY_WEATHER_APIKEY;
-    const MY_WEATHER_APIKEY = "f43d5fBEBFAdasf13fsdafd306fA2c1FD61105D2"; //test
+    const MY_WEATHER_APIKEY = "f43d5fBEBFAdasadasf13fsdafsfd306fA2c1FgdD61105D2"; //test
     const latInput = document.getElementById('lat-input');
     const lonInput = document.getElementById('lon-input');
     const lat = parseFloat(latInput.value);
