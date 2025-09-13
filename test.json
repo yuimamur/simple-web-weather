@@ -1,16 +1,15 @@
 {
-
-  "id": "f4e23cf0-2f78-4077-8ad8-cbb2d563985f",
+  "id": "f4e23cf0-2f78-4077-8ad8-cbb2d563",
   "name": "Wiz Environment Variables",
   "values": [
     {
       "key": "CLIENT_ID",
-      "value": "gDPy8jPAizfmqB$?T",
+      "value": "gDPy8jPAiz",
       "enabled": true
     },
     {
       "key": "CLIENT_SECRET",
-      "value": "De7A5C@F8rp#oHCsE6?Gd@8fQ$yMEq4tn9h!AB?p",
+      "value": "De7A5C@F8rp#osaHCsE6?Gd@8fQ$yMEq4",
       "enabled": true
     },
     {
@@ -23,4 +22,5 @@
   "_postman_exported_at": "2021-06-25T12:07:37.831Z",
   "_postman_exported_using": "Postman/8.3.0"
 }
+
 
