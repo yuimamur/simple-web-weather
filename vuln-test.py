@@ -28,21 +28,21 @@ app = Flask(__name__)
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-app.config['SECRET_KEY'] = 'secretkey123456789'
+app.config['SECRET_KEY'] = 'secretkey123456789' #wiz_ignore
 =======
-app.config['SECRET_KEY'] = 'supersecretkey123'
+app.config['SECRET_KEY'] = 'supersecretkey123' #wiz_ignore
 >>>>>>> a335bfc (change some files)
 =======
-app.config['SECRET_KEY'] = 'secretkey12345'
+app.config['SECRET_KEY'] = 'secretkey12345' #wiz_ignore
 >>>>>>> b7019ba (random change)
 =======
-app.config['SECRET_KEY'] = 'secretkey123456'
+app.config['SECRET_KEY'] = 'secretkey123456' #wiz_ignore
 >>>>>>> ce06711 (change the secret key)
 =======
-app.config['SECRET_KEY'] = 'secretkey1234567'
+app.config['SECRET_KEY'] = 'secretkey1234567' #wiz_ignore
 >>>>>>> 67f05c3 (change the secret key1)
 =======
-app.config['SECRET_KEY'] = 'secretkey12345678'
+app.config['SECRET_KEY'] = 'secretkey12345678' #wiz_ignore
 >>>>>>> 9436c3d (change the secret key1)
 
 # 脆弱: データベース情報も直書き
