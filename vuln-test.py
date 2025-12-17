@@ -39,7 +39,7 @@ app.config['SECRET_KEY'] = 'secretkey12345' #wiz_ignore
 app.config['SECRET_KEY'] = 'secretkey123456' #wiz_ignore
 >>>>>>> ce06711 (change the secret key)
 =======
-app.config['SECRET_KEY'] = 'secretkey1234567' #wiz_ignore
+app.config['SECRET_KEY'] = 'secretkey12345678' #wiz_ignore
 >>>>>>> 67f05c3 (change the secret key1)
 =======
 app.config['SECRET_KEY'] = 'secretkey12345678' #wiz_ignore
