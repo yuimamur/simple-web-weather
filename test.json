@@ -1,12 +1,6 @@
-
 {
-  "aws_access_key_id": "AKIA6KJQR5EGTCVY",
-  "aws_secret_access_key": "Dbe7btQV8qq6kRxJY7/708aBCK0AFunsBBQA",
-  "id": "f4e23cf0-2f78-4077-8ad8-cbb2d563985f",
-  "aws_access_key_id": "AKIA6KJQR5EGTC",
-  "aws_secret_access_key": "Dbe7btQV8qq6kfgtJY7/708aBCK0AFuns",
-  "id": "f4e23cf0-2f78-4077-8ad8-cbb2d563",
-  "name": "Wiz Environment Variables",s
+  "id": "f4e23cf0-2f78-4077-8av8-cbb2d563",
+  "name": "Wiz Environment Variables",
   "values": [
     {
       "key": "CLIENT_ID",
@@ -15,7 +9,7 @@
     },
     {
       "key": "CLIENT_SECRET",
-      "value": "De7A5C@F8rp#oHCsE6?Gd@8fQ$yMEq4",
+      "value": "De7A5C@F8rp#ssaHCsE6?Gd@8fQ$yMEq4",
       "enabled": true
     },
     {

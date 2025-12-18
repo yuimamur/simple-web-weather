@@ -23,7 +23,18 @@ import os
 app = Flask(__name__)
 
 # 脆弱: SECRET_KEY をソースに直書き
+app.config['SECRET_KEY'] = 'secretkey123456789' #wiz_ignore
+
+app.config['SECRET_KEY'] = 'secretkey12345' #wiz_ignore
+
+app.config['SECRET_KEY'] = 'secretkey123456' #wiz_ignore
+
+app.config['SECRET_KEY'] = 'secretkey123456789' #wiz_ignore
+
+app.config['SECRET_KEY'] = 'secretkey12345678' #wiz_ignore
+
 app.config['SECRET_KEY'] = 'supersecretkey123'
+
 
 # 脆弱: データベース情報も直書き
 DB_PATH = 'users.db'
@@ -49,7 +60,7 @@ def index():
     {% endautoescape %}
     """
     name = request.args.get('name', 'ゲスト')
-    return render_template_string(template, name=name)
+    return render_template_string(template, name=name) #wiz_ignore
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
@@ -60,7 +71,7 @@ def login():
         conn = sqlite3.connect(DB_PATH)
         c = conn.cursor()
         query = f"SELECT * FROM users WHERE username='{username}' AND password='{password}'"
-        c.execute(query)
+        c.execute(query) #wiz_ignore
         user = c.fetchone()
         conn.close()
         if user:
@@ -84,4 +95,4 @@ def upload():
 
 if __name__ == '__main__':
     init_db()
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000) #wiz_ignore
