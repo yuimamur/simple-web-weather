@@ -1,19 +1,10 @@
-<<<<<<< HEAD
 {
-
-=======
-
-{
-<<<<<<< HEAD
   "aws_access_key_id": "AKIA6KJQR5EGTCVY",
   "aws_secret_access_key": "Dbe7btQV8qq6kRxJY7/708aBCK0AFunsBBQA",
->>>>>>> 399510e (test secret scan on wiz test5)
   "id": "f4e23cf0-2f78-4077-8ad8-cbb2d563985f",
-=======
   "aws_access_key_id": "AKIA6KJQR5EGTC",
   "aws_secret_access_key": "Dbe7btQV8qq6kfgtJY7/708aBCK0AFuns",
   "id": "f4e23cf0-2f78-4077-8ad8-cbb2d563",
->>>>>>> 47c3b88 (test secret scan on wiz test5)
   "name": "Wiz Environment Variables",
   "values": [
     {
@@ -36,4 +27,3 @@
   "_postman_exported_at": "2021-06-25T12:07:37.831Z",
   "_postman_exported_using": "Postman/8.3.0"
 }
-
