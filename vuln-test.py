@@ -23,27 +23,18 @@ import os
 app = Flask(__name__)
 
 # 脆弱: SECRET_KEY をソースに直書き
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 app.config['SECRET_KEY'] = 'secretkey123456789' #wiz_ignore
-=======
-app.config['SECRET_KEY'] = 'supersecretkey123' #wiz_ignore
->>>>>>> a335bfc (change some files)
-=======
+
 app.config['SECRET_KEY'] = 'secretkey12345' #wiz_ignore
->>>>>>> b7019ba (random change)
-=======
+
 app.config['SECRET_KEY'] = 'secretkey123456' #wiz_ignore
->>>>>>> ce06711 (change the secret key)
-=======
+
 app.config['SECRET_KEY'] = 'secretkey123456789' #wiz_ignore
->>>>>>> 67f05c3 (change the secret key1)
-=======
+
 app.config['SECRET_KEY'] = 'secretkey12345678' #wiz_ignore
->>>>>>> 9436c3d (change the secret key1)
+
+app.config['SECRET_KEY'] = 'supersecretkey123'
+
 
 # 脆弱: データベース情報も直書き
 DB_PATH = 'users.db'
