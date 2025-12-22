@@ -1,0 +1,39 @@
+name: NPM Dependency Updates
+
+on:
+  schedule:
+    - cron: '8 2 * * *'  # JST 11:08
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+    
+    - run: npm ci
+    
+    - name: Check and update dependencies
+      run: |
+        # 古いパッケージをチェック
+        npx npm-check-updates --target minor
+        
+        # アップデートを適用（10個まで）
+        npx npm-check-updates -u --target minor
+        npm install
+    
+    - name: Create PR if updated
+      if: success()
+      uses: peter-evans/create-pull-request@v6
+      with:
+        commit-message: "chore(deps): update npm packages"
+        branch: update-deps
+        title: "Update npm dependencies"
+        body: "Auto-update of npm dependencies"
