@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout repository
+    - 
       uses: actions/checkout@v4
     
     - name: Setup Node.js
@@ -26,7 +26,7 @@ jobs:
         # 古いパッケージをチェック
         npx npm-check-updates --target minor
         
-        # アップデートを適用（10個まで）
+        # アップデート
         npx npm-check-updates -u --target minor
         npm install
     
