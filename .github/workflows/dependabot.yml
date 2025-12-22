@@ -23,7 +23,7 @@ jobs:
     
     - name: Check and update dependencies
       run: |
-        # 古いパッケージをチェック
+        # 古いパッケージチェック
         npx npm-check-updates --target minor
         
         # アップデート
