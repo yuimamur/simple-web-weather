@@ -2,7 +2,7 @@ name: NPM Dependency Updates
 
 on:
   schedule:
-    - cron: '8 2 * * *'  # JST 11:08
+    - cron: '20 * * * *'  # JST 11:08
   workflow_dispatch:
 
 jobs:
@@ -23,10 +23,8 @@ jobs:
     
     - name: Check and update dependencies
       run: |
-        # 古いパッケージチェック
+
         npx npm-check-updates --target minor
-        
-        # アップデート
         npx npm-check-updates -u --target minor
         npm install
     
